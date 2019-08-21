@@ -22,6 +22,8 @@
 # allow optional per-repo overrides
 -include Makefile.overrides.mk
 
+-include docker/istio-dev/istio-dev.mk
+
 RUN =
 
 # Set the environment variable BUILD_WITH_CONTAINER to use a container
